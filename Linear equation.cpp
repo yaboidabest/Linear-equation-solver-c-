@@ -11,7 +11,7 @@ cin >> y1;
 cout << "Enter point 2\n";
 cin >> x2;
 cin >> y2;
-if(x1==x2 && y1!=y2) {
+if(x1==x2) {
     cout << "undifined";
     return 0;
 }
